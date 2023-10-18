@@ -1,0 +1,216 @@
+@font-face {
+  font-family:'roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'robotomono';
+  src: url("../fonts/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+  font-family:'sfmono' ;
+  src: url("../fonts/SFMono-Regular.otf");
+}
+
+.logoHexlet {
+width: 50px;
+height: 50px;
+}
+
+.logoHexlet:hover {
+  transform: rotate(4turn);
+  transition: 0.8s;
+}
+
+header {
+  font-family:"roboto", sans-serif;
+  font-size: 0.8em;
+  align-items: left;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  background-color: rgba(72, 0, 255, 0.384);
+}
+
+.backroundimg {
+  height: 150rem;
+  width: 150rem;
+  z-index: -100;
+  position: absolute;
+}
+
+.backroundimg  img {
+  width: inherit;
+  height: inherit;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+h1, h2, h3 {
+font-family: 'montserrat', sans-serif;
+padding: 6px 10px;
+}
+
+h1 {
+font-size: 1.5em;
+}
+
+.images {
+  height: 20%;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+header  h1, h2 {
+ text-align: left;
+ -webkit-text-stroke: #9255fb 0.5px;
+}
+
+.html {
+  width: 155px;
+  height: 160px;
+  display: block;
+  margin: auto;
+  transition: opacity 0.1s;
+}
+
+.secret img.onhover {
+  width: 155px;
+  height: 160px;
+  margin: auto;
+  opacity: 0;
+  display: block;
+  transition: opacity 0.2s;
+}
+
+.secret:hover img.onhover {
+  transform: rotate(1000turn);
+  transition: 0.8s;
+  opacity: 1;
+}
+
+.html:hover {
+  opacity: 0;
+  z-index: -100;
+} 
+
+.css {
+  width: 110px;
+  height: 160px;
+  display: flex;
+}
+
+.css:hover {
+  transform: rotate(1turn);
+  transition: 0.8s;
+}
+
+.js {
+  width: 160px;
+  height: 160px;
+  display: flex;
+}
+
+.js:hover {
+  transform: rotate(1turn);
+  transition: 0.8s;
+}
+
+.github {
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+
+.github:hover {
+  transform: rotate(1turn);
+  transition: 0.8s;
+}
+
+.ubuntu {
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+
+.ubuntu:hover {
+  transform: rotate(1turn);
+  transition: 0.8s;
+}
+
+.footer {
+  text-align: right;
+  margin-top: 25px;
+}
+
+
+footer  img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+.parent {
+  column-count: 3;
+  width: 1640px;
+  height: 1180px;
+  column-gap: 100px;
+  text-align: center;
+}
+
+.infoblock {
+  background: linear-gradient(#9191b2, #b29191, #91b291);
+  break-inside: avoid;
+  font-family: 'montserrat', sans-serif;
+  font-size: 1em;
+  width: 530px;
+  height: 580px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.1s;
+}
+
+.infoblock:hover {
+  box-shadow: 8px 10px 5px 2px rgba(72, 0, 255, 0.405);
+  background: linear-gradient(#7e7ea4, #725190, #342d69);
+}
+
+a {
+  text-decoration: none;
+  color: #9255fb;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #5581fb;
+}
+
+a:active {
+  color: #a92fa9;
+}

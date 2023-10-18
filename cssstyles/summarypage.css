@@ -1,0 +1,125 @@
+@font-face {
+  font-family:'roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'robotomono';
+  src: url("../fonts/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+  font-family:'sfmono' ;
+  src: url("../fonts/SFMono-Regular.otf");
+}
+
+.imgtransparency {
+  width: 102vw;
+  height: 280vw;
+	margin: 0 auto;
+	background:  rgba(72, 0, 255, 0.186);
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-image: url("../images/hubbledeepfield.png"); 
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+h1,h2 {
+  font-family:'roboto';
+}
+button {
+  display: inline-block;
+  background: rgb(72, 0, 255);
+  color: #8f92dd;
+  padding: 12px;
+  text-decoration: none;
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(119, 2, 100);
+}
+
+button:active {
+  background-color: rgb(2, 78, 119);
+}
+
+
+header h1, h2 {
+  margin-left: 10px;
+  -webkit-text-stroke: #bc9eef9d 0.1px;
+}
+
+header  img {
+  width: 50px;
+  height: 50px;
+}
+
+header  img:hover {
+    transform: rotate(1turn);
+    transition: 0.8s;
+}
+  
+header {
+ font-family:"roboto", sans-serif;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+
+.wrap {
+  background: linear-gradient(#9191b2, #b29191, #91b291);
+  display: block;
+  break-inside: avoid;
+  font-family: 'montserrat', sans-serif;
+  font-size: 1em;
+  border: 2px rgb(72, 0, 255) solid;
+  border-radius: 24px;
+  margin-top: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+
+footer {
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 15px;
+  color: #9191b2;
+  font-family: 'roboto';
+  
+}
+
+footer  img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer  img:hover {
+  transform: rotate(1turn);
+  transition: 0.8s;
+}
